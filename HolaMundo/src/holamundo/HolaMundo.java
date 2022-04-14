@@ -69,7 +69,21 @@ public class HolaMundo {
         double numeroDouble = 1.7976931348623157E308D;
         System.out.println("Valor Minimo de Double: "+ Double.MIN_VALUE);
         System.out.println("Valor Maximo de Double: "+ Double.MAX_VALUE);
-        System.out.println("Valor de la variable numeroDouble: "+ numeroDouble);                
+        System.out.println("Valor de la variable numeroDouble: "+ numeroDouble);   
+        
+        // char lessons
+        
+        char varCharDecimal = 33;        
+        System.out.printf("varCharDecimal = 33;   =  %s.\n",varCharDecimal);
+        
+        varCharDecimal = '!';        
+        System.out.printf("varCharDecimal = '!';   =  %s.\n",varCharDecimal);
+        
+        varCharDecimal = '\u0021';        
+        System.out.printf("varCharDecimal = '\u0021';   =  %s.\n",varCharDecimal);
+        
+        int variableCharInt = '!';
+        System.out.printf("Este es el valor int variableCharInt = '!';    = ", variableCharInt);
         
     }
     
